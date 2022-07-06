@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+/* Container Section */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header-section {
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 625px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    margin-bottom: 7rem;
+}
+
+.shadow {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.header-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.header-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 21%;
+    margin: 2rem 0;
+}
+
+.donate-btn {
+    padding: 16px 30px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Amount Section */
+.amount-section {
+    margin-bottom: 7rem;
+}
+
+.amount-section h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.amount-section p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #707070;
+}
+
+.amount-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.ammount {
+    display: flex;
+    background: #F1F1F1;
+    border: 2px solid #F1F1F1;
+    color: #707070;
+    padding: 50px 40px;
+    border-radius: 3px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.extra {
+    padding: 50px 30px;
+}
+
+.ammount:last-child {
+    margin: 0;
+}
+
+.ammount:hover {
+    background: #ffeeee;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ammount:focus {
+    background: #ffeeee;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+}
+
+.amount-input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount-input {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    padding: 0 33%;
+    padding-bottom: 8px;
+    margin-bottom: 2rem;
+    color: #b3b3b3;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Donate Plan Section */
+.donate-plan-section {
+    margin-bottom: 7rem;
+}
+
+.donate-plan-title h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.donate-plan-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #707070;
+}
+
+.donate-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.donate-card {
+    width: 32%;
+    padding: 3rem 2rem;
+    border-radius: 3px;
+}
+
+.food-card {
+    background-color: #EDF5F6;
+}
+
+.shelter-card {
+    background-color: #FFEEEE;
+}
+
+.education-card {
+    background-color: #fff4d6;
+}
+
+.donate-card img {
+    margin-bottom: 2rem;
+}
+
+.donate-card-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 1rem;
+}
+
+.donate-card-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #707070;
+}
+
+/* My update Section */
+.my-update-section {
+    margin-bottom: 7rem;
+}
+
+.my-update-title h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.my-update-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #707070;
+}
+
+.subscribe-wrapper {
+    width: 100%;
+    background: #FFF4D6;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-input {
+    padding: 1rem;
+    width: 45%;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.subscribe-btn {
+    padding: 1rem 3rem;
+    border: none;
+    outline: none;
+    background-color: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer-section {
+    background: #0B0D17;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.footer-section h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #FF5959;
+    margin-bottom: 2rem;
+}
+
+.footer-section p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
